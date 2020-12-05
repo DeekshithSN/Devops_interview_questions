@@ -1,3 +1,6 @@
+- Mock interview video - https://youtu.be/i7YJesoeWFI
+- Mock interview Answers - https://youtu.be/5w8qVukxXXY 
+
 GIT
 ---------------------------------------------------------------------------------------------------------------------------------
 1. Why we need git? What makes git unique from other tools like SVN?
