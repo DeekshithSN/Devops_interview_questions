@@ -17,7 +17,7 @@ Maven
 Jenkins 
 --------------------------------------------------------------------------------------------------------
 7. Have you worked on commit based job in jenkins? what settings you need to do in jenkins and github to setup commit based job?
-8. you want to create 50 freestyle jobs with same configurations, but only change is job name. how would you achieve teh same?
+8. you want to create 50 freestyle jobs with same configurations, but only change is job name. how would you achieve the same?
 9. How can you copy job from your local jenkins instance to other local jenkins instance?
 
 Unix and Shell scripting 
