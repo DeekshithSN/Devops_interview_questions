@@ -52,7 +52,7 @@ Ansible
 
 Docker
 ------------------------------------------------------------------------------------------------------------------------------
-29. Lets say I have 1 GB file that has to be sent todocker daemon, as its 1GB it will take muchtime and network too. By which option while building dockerfile we can send the fileIn better manner?
+29. Lets say I have 1 GB file that has to be sent to docker daemon, as its 1GB it will take muchtime and network too. By which option while building dockerfile we can send the fileIn better manner?
 30. What is the difference between ADD andCOPY docker instructions in Dockerfile?
 31. Command to remove to stopped and running Containers?
 32. Inside the container I did many changes like  Creating, modifying and deleting file but I Wanted to check which files has been changed And what action has been taken what is the  Command we need to use ?
