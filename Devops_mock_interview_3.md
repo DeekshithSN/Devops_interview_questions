@@ -28,6 +28,9 @@ mvn help:effective-pom -Doutput=pom_eff.xml
 Unix and Shell scripting 
 ---------------------------------------------------------------------------------------------------------------------
 10. In a file I have ip addresses , I want list unique ip addresses with number of times its present in file?
+```
+grep -E -o "([0-9]{1,3}[\.]){3}[0-9]{1,3}" logfile | sort | uniq -c | sort -nr
+```
 11. What is exit status in UNIX?
 12. Lets say I have shell script name magic.sh when I execute. It gives “This is from magic.sh”, so now if I change file name to magic-test.sh I should get “This is from magic-test.sh” basically as name of file chages my output should also change?
 13. What is shebang ? Why it is used?
@@ -60,7 +63,7 @@ Ansible
 Docker
 ------------------------------------------------------------------------------------------------------------------------------
 29. Lets say I have 1 GB file that has to be sent to docker daemon, as its 1GB it will take muchtime and network too. By which option while building dockerfile we can send the fileIn better manner?
-30. What is the difference between ADD andCOPY docker instructions in Dockerfile?
+30. What is the difference between ADD and COPY docker instructions in Dockerfile?
 31. Command to remove to stopped and running Containers?
 32. Inside the container I did many changes like  Creating, modifying and deleting file but I Wanted to check which files has been changed And what action has been taken what is the  Command we need to use ?
 
