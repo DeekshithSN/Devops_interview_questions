@@ -18,6 +18,9 @@ Maven
 mvn install -Dmaven.repo.local=/alternate/repo/location 
 ```
 6. maven follows convention over configuration that means it assumes code should be there under src/main/java, test cases under src/tests and many more.Here my requirement is I don’t want to follow that conventions I need to use different folder structure is that possible in maven?
+```
+mvn help:effective-pom -Doutput=pom_eff.xml
+```
 7. What are dependency and plugin in maven? Give one example for each?
 8. What are 3 build life cycles in maven?
 9. In Which tag we will mention output artifact type( like jar, war or any other)?
@@ -34,7 +37,7 @@ Jenkins
 --------------------------------------------------------------------------------------------------------
 14. How to Downgrade plugins in Jenkins?
 15. Have you worked on Jenkinsfile? Can we use different nodes for each stage?
-16. Can you list few ways by which we can trigger our build in Jenkins?What is the difference between Build Periodically and Poll SCM? 
+16. Can you list few ways by which we can trigger our build in Jenkins? What is the difference between Build Periodically and Poll SCM? 
 
 AWS
 -------------------------------------------------------------------------------------------------------------
