@@ -13,6 +13,10 @@ GIT
 Maven
 --------------------------------------------------------------------------------------------------------------------------
 5. .m2 is local repository for maven, now I don’t want to use .m2 folder as my local repository I want to use some other folder as my local, is it possible in maven? If yes, how would you do that?
+
+```
+mvn install -Dmaven.repo.local=/alternate/repo/location 
+```
 6. maven follows convention over configuration that means it assumes code should be there under src/main/java, test cases under src/tests and many more.Here my requirement is I don’t want to follow that conventions I need to use different folder structure is that possible in maven?
 7. What are dependency and plugin in maven? Give one example for each?
 8. What are 3 build life cycles in maven?
