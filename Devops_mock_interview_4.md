@@ -14,43 +14,42 @@ MAVEN
 JENKINS
 ----------
 8. How to set Jenkins build to fail based specific word in console output ?
-9. How to set Jenkins build to fail based specific word in console output ?
-10. What are active and reactive parameters (Dynamic parameterization) in Jenkins ?
-11. How to customize the build number display to something else in Jenkins job page?
-12. What are multi branch pipeline?
-13. What is shared library in Jenkins ?
+9. What are active and reactive parameters (Dynamic parameterization) in Jenkins ?
+10. How to customize the build number display to something else in Jenkins job page?
+11. What are multi branch pipeline?
+12. What is shared library in Jenkins ?
 
 
 UNIX & SHELL SCRIPTING
 -----------
-14. Command to find empty files in a given directory?
-15. Commands you will use it for configuring ssh connectivity between 2 machines and what files will be present in .ssh folder?
-16. How to schedule a shell script in unix machines?
-17. Command to get load average ?
-18. Need to identify ip addresses in log file and count of ip addresses in log file?
+13. Command to find empty files in a given directory?
+14. Commands you will use it for configuring ssh connectivity between 2 machines and what files will be present in .ssh folder?
+15. How to schedule a shell script in unix machines?
+16. Command to get load average ?
+17. Need to identify ip addresses in log file and count of ip addresses in log file?
 
 ANSIBLE
 ------------
-19. Why ansible ? What makes ansible powerful than other tools like chef and puppet?
-20. 5 modules that you have worked on? Can we create custom module ?
-21. What is dynamic inventory in ansible?
-22. Lets say I have both Ubuntu and centos machines as nodes I want install application tree using same playbook, how would you approach this scenario? 
-23. How to handle prompts with ansible playbook?
+18. Why ansible ? What makes ansible powerful than other tools like chef and puppet?
+19. 5 modules that you have worked on? Can we create custom module ?
+20. What is dynamic inventory in ansible?
+21. Lets say I have both Ubuntu and centos machines as nodes I want install application tree using same playbook, how would you approach this scenario? 
+22. How to handle prompts with ansible playbook?
 
 DOCKER
 ----------
-24. What does ONBUILD instruction do in Dockerfile?
-25. What is the use of .dockerignore file?
-26. I have dockerfile that accepts arguments, if I supply value as “1” then it should use maven 2.x version for base image and if I supply “2” then it should take maven latest as base image 
-27. What are docker compose and docker swarm?
+23. What does ONBUILD instruction do in Dockerfile?
+24. What is the use of .dockerignore file?
+25. I have dockerfile that accepts arguments, if I supply value as “1” then it should use maven 2.x version for base image and if I supply “2” then it should take maven latest as base image 
+26. What are docker compose and docker swarm?
 
 KUBERNETES
 ---------
-28. Components in kubernetes architecture?
-29. What are stateful sets in kuberentes?
-30. Command to find which container has failed in pod and command to get logs of container 
-31. Tools to maintain kubernetes log files 
+27. Components in kubernetes architecture?
+28. What are stateful sets in kuberentes?
+29. Command to find which container has failed in pod and command to get logs of container 
+30. Tools to maintain kubernetes log files 
 
 AWS
 -----
-32. Services used AWS and tasks performed in AWS
+31. Services used AWS and tasks performed in AWS
