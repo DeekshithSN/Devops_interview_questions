@@ -20,7 +20,7 @@ Maven
 
 Jenkins
 ---
-12.What are types jobs you have worked on?? 
+12. What are types jobs you have worked on?? 
 13. Can we have job for pr and once merge is done the source branch should be deleted? 
 14. How do you take Jenkins backup? 
 15. Can you tell me importance of post block?? 
