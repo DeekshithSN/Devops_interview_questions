@@ -31,4 +31,22 @@ kubernetes
 22. given a object how do we find api version and kind with respect to cluster?
 23. any work around to bring one pod out of rotation, when multiple replicas has been deployed?
 
+Jenkins
+----
+24. list of best practices to follow while writing Jenkins pipeline?
+25. Is it possible to run each stage on different agaent?
+26. Is it possible to change success or error message that we see in console ouput ?
+27. Have list of command that has to executed in certain directory in the code, is it possible to do the same?
+28. Can we have versioning on Jenkins freestyle job? 
 
+Ansible
+---
+29. Is it possible to set fact using ansible playbook?
+30. can we concate line to exsisting file in remote server, example exporting env variable in bashrc? ( also imporatnt when the playbook runs again if the value exsists then you should not insert)
+31. 
+
+Devops General Interview Questions 
+---
+Daily activites of devops engineer 
+challenges that you have faced while working devops 
+what are the envirnments which are there in the organization 
