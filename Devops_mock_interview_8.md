@@ -13,3 +13,22 @@ Unix & Shell
 11. delete empty files in a given directory?
 12. there is a specific command that has been used in shell script, but it provides lot of prompts. All those prompts should be answered by shell script is it possible in shell script? 
 
+
+Monitoring 
+-----
+13. what is the importance of monitoring?
+14. difference between metrics monitoring and log monitoring, give example for both type of monitoring?
+15. how do we configure endpoint in promethus to scrape the data?
+16. what is the use of node exporter and alert manager in prometheus?
+17. Can we monitor jenkins using prometheus? Also can we send mailer when jenkins is down?
+18. what are metric types that prometheus can accept?
+
+kubernetes
+----
+19. explain any 4 different types of pod statuses and also the reasons that why pod might go into that state?
+20. what are operators and give one example where we can use operator?
+21. what is the importance of kubeconfig file? Also lets say when you login to kuberenets by default it will pointed to default namespace, if i want list any objects which are other namespace need concate -n option for all the kubectl commands, is there a way we can set the namaspace to aviod -n option in all the commands?
+22. given a object how do we find api version and kind with respect to cluster?
+23. any work around to bring one pod out of rotation, when multiple replicas has been deployed?
+
+
