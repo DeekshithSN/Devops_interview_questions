@@ -44,7 +44,7 @@ Ansible
 29. Is it possible to set fact using ansible playbook?
 30. can we concate line to exsisting file in remote server, example exporting env variable in bashrc? ( also imporatnt when the playbook runs again if the value exsists then you should not insert)
 31. Difference between copy and template module?
-32. lets say we have few 
+32. In one of the template file need to use remote machine ip, how do we read the machine ip value? 
 
 Devops General Interview Questions 
 ---
