@@ -48,6 +48,7 @@ Ansible
 
 Devops General Interview Questions 
 ---
-Daily activites of devops engineer 
-challenges that you have faced while working devops 
-what are the envirnments which are there in the organization 
+- Daily activites of devops engineer 
+- challenges that you have faced while working devops 
+- what are the envirnments which are there in the organization 
+- How the deployents move from one env to other env
