@@ -5,7 +5,7 @@ Unix & Shell
 3. is it possible to store a commands output, either success or failure to the same file?
 4. what is debug mode in shell script?
 5. set of commands executed at multiples places in shell script, want to standardize that is it possible something like to define function?
-6. In shell script can supply parameters functions?
+6. In shell script can we supply parameters to functions?
 7. what is the use of shift command?
 8. can we change the color of script output?
 9. difference between break and exit 0 in shell script?
