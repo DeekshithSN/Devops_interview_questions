@@ -8,10 +8,21 @@ Unix & Shell
 6. In shell script can we supply parameters to functions?
 7. what is the use of shift command?
 8. can we change the color of script output?
-9. difference between break and exit 0 in shell script?
-10. delete files which are older than 10 days?
-11. delete empty files in a given directory?
-12. there is a specific command that has been used in shell script, but it provides lot of prompts. All those prompts should be answered by shell script is it possible in shell script? 
+
+```
+Black        0;30     Dark Gray     1;30
+Red          0;31     Light Red     1;31
+Green        0;32     Light Green   1;32
+Brown/Orange 0;33     Yellow        1;33
+Blue         0;34     Light Blue    1;34
+Purple       0;35     Light Purple  1;35
+Cyan         0;36     Light Cyan    1;36
+Light Gray   0;37     White         1;37
+```
+10. difference between break and exit 0 in shell script?
+11. delete files which are older than 10 days?
+12. delete empty files in a given directory?
+13. there is a specific command that has been used in shell script, but it provides lot of prompts. All those prompts should be answered by shell script is it possible in shell script? 
 
 
 Monitoring 
