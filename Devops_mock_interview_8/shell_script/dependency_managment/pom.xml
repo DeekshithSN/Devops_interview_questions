@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>calculator</groupId>
+  <artifactId>calculator-main</artifactId>
+  <version>1.0</version>
+  <packaging>pom</packaging>
+
+  <name>calculator_addition</name>
+
+  <modules>
+    <module>addition</module>
+    <module>substraction</module>
+  </modules>
+
+  <properties>
+    <junit.version>2.19.1</junit.version>
+  </properties>
+
+  <dependencyManagement>
+      <dependencies>
+        <dependency>
+          <groupId>javax.servlet</groupId>
+          <artifactId>servlet-api</artifactId>
+          <version>2.5</version>
+        </dependency>
+        <dependency>
+          <groupId>junit</groupId>
+          <artifactId>junit</artifactId>
+          <version>3.8.1</version>
+          <scope>test</scope>
+        </dependency>
+        <dependency>
+          <groupId>org.apache.maven.surefire</groupId>
+          <artifactId>surefire-junit4</artifactId>
+          <version>${junit.version}</version>
+        </dependency>
+        <dependency>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-jdeprscan-plugin</artifactId>
+          <version>3.0.0-alpha-1</version>
+          <scope>compile</scope>
+          <exclusions>
+                <exclusion>
+                  <groupId>org.sonatype.sisu</groupId>
+                  <artifactId>sisu-guice</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+      </dependencies>
+   </dependencyManagement>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <configuration>
+            <source>1.6</source>
+            <target>1.6</target>
+         </configuration>
+    </plugin>
+     <plugin>
+          <groupId>org.codehaus.mojo</groupId>
+          <artifactId>tidy-maven-plugin</artifactId>
+          <version>1.1.0</version>
+          <executions>
+            <execution>
+              <id>validate</id>
+              <phase>validate</phase>
+              <goals>
+                <goal>check</goal>
+               </goals>
+            </execution>
+          </executions>
+      </plugin>
+    </plugins>
+   </build>
+</project>
