@@ -19,6 +19,20 @@ Purple       0;35     Light Purple  1;35
 Cyan         0;36     Light Cyan    1;36
 Light Gray   0;37     White         1;37
 ```
+tput command 
+```
+Num  Colour    #define         R G B
+
+0    black     COLOR_BLACK     0,0,0
+1    red       COLOR_RED       1,0,0
+2    green     COLOR_GREEN     0,1,0
+3    yellow    COLOR_YELLOW    1,1,0
+4    blue      COLOR_BLUE      0,0,1
+5    magenta   COLOR_MAGENTA   1,0,1
+6    cyan      COLOR_CYAN      0,1,1
+7    white     COLOR_WHITE     1,1,1
+```
+
 10. difference between break and exit 0 in shell script?
 11. delete files which are older than 10 days?
 12. delete empty files in a given directory?
