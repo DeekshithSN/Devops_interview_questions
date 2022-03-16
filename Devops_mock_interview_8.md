@@ -33,6 +33,18 @@ Num  Colour    #define         R G B
 7    white     COLOR_WHITE     1,1,1
 ```
 
+tput text mode commands 
+
+```
+tput bold    # Select bold mode
+tput dim     # Select dim (half-bright) mode
+tput smul    # Enable underline mode
+tput rmul    # Disable underline mode
+tput rev     # Turn on reverse video mode
+tput smso    # Enter standout (bold) mode
+tput rmso    # Exit standout mode
+```
+
 10. difference between break and exit 0 in shell script?
 11. delete files which are older than 10 days?
 12. delete empty files in a given directory?
