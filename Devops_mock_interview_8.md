@@ -48,7 +48,7 @@ tput rmso    # Exit standout mode
 10. difference between break and exit 0 in shell script?
 11. delete files which are older than 10 days?
 12. delete empty files in a given directory?
-13. there is a specific command that has been used in shell script, but it provides lot of prompts. All those prompts should be answered by shell script is it possible in shell script? 
+
 
 
 Monitoring 
