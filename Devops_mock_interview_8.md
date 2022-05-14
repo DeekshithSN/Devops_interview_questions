@@ -6,44 +6,6 @@ Unix & Shell
 5. set of commands executed at multiples places in shell script, want to standardize that is it possible something like to define function?
 6. In shell script can we supply parameters to functions?
 7. what is the use of shift command?
-8. can we change the color of script output?
-
-```
-Black        0;30     Dark Gray     1;30
-Red          0;31     Light Red     1;31
-Green        0;32     Light Green   1;32
-Brown/Orange 0;33     Yellow        1;33
-Blue         0;34     Light Blue    1;34
-Purple       0;35     Light Purple  1;35
-Cyan         0;36     Light Cyan    1;36
-Light Gray   0;37     White         1;37
-```
-tput command 
-```
-Num  Colour    #define         R G B
-
-0    black     COLOR_BLACK     0,0,0
-1    red       COLOR_RED       1,0,0
-2    green     COLOR_GREEN     0,1,0
-3    yellow    COLOR_YELLOW    1,1,0
-4    blue      COLOR_BLUE      0,0,1
-5    magenta   COLOR_MAGENTA   1,0,1
-6    cyan      COLOR_CYAN      0,1,1
-7    white     COLOR_WHITE     1,1,1
-```
-
-tput text mode commands 
-
-```
-tput bold    # Select bold mode
-tput dim     # Select dim (half-bright) mode
-tput smul    # Enable underline mode
-tput rmul    # Disable underline mode
-tput rev     # Turn on reverse video mode
-tput smso    # Enter standout (bold) mode
-tput rmso    # Exit standout mode
-```
-
 10. difference between break and exit 0 in shell script?
 11. delete files which are older than 10 days?
 12. delete empty files in a given directory?
