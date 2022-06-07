@@ -1,4 +1,4 @@
-Good questions 
+Good questions and nice 
 - Mock interview video - https://youtu.be/i7YJesoeWFI
 - Mock interview Answers - https://youtu.be/5w8qVukxXXY 
 
