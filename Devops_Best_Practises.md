@@ -120,5 +120,43 @@ Kubernetes has built-in protections to prevent escalation of privileges with thi
 ```
 As a Jenkins administrator, removing old or unwanted builds keeps the Jenkins controller running efficiently. When you do not remove older builds, there are less resources for more current and relevant builds. This video reviews using the buildDiscarder directive in individual Pipeline jobs. The video also reviews the process to keep specific historical builds.
 ```
+2. **Never hardcode secrets or credentials in pipeline**
+```
+if you hard code in pipeline as its CICD tool many people will have access to pipeline code or build logs, so there might be a chance to mis-usage of the secrets.
+Use credntials by which you can secure secret values 
+```
+3. **Install only required plugins**
+```
+dont install plugins unnecessarily it might create issues with the jenkins.    
+```
+4. **Executor count in node configuration**
+```
+Use as less executors as possible, if the value is high then node will used for executing multiple builds. Pipeline execution time will be increased because it should share resources.
+If value is high sometimes nodes will become unresponsive.
+```
+5. **Use parallel execution of stages when stages are not dependent on each other** 
+```
+This makes pipeline to execute faster and nodes can serve other pipeline runs
+```
+
+## Ansible 
+
+1.  **Use roles to keep playbooks well-organized**
+```
+Roles keep ansible playbook organized,easier maintanance & increases reusabilty. 
+```
+
+2. **make use ansible vault in case if you have any secrets**
+```
+The more you use Ansible, more tasks become automated. You will reach a point, that things such as SSL configuration, database passwords needs to be automated.  
+This is where Ansible provides the vault module so you could safely save these data and automate it without any risks.
+```
+
+3. **Turn on Gather Facts only when required**
+```
+When a playbook is executed, Ansible starts collecting facts (data that is stored into variables) about the remote host prior execution. These details include variables from the remote host such as network configuration variables, hostnames so you could use it in your playbook.
+
+This is a time-consuming process, in order to speed up the execution of the playbook we turn gathering facts off.
+```
 
 
