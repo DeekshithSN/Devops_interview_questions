@@ -97,7 +97,28 @@ This probe tries to ping the pod for a response from it and then check its healt
 If there is no response, then the application is not running on the pod. 
 The liveness probe launches a new pod and starts the application on it if the check fails.
 ```
+4. **Set Resource Requests & Limits**
+```
+Occasionally deploying an application to a production cluster can fail due limited resources available on that cluster. 
+This is a common challenge when working with a Kubernetes cluster and it’s caused when resource requests and limits are not set.
+Without resource requests and limits, pods in a cluster can start utilizing more resources than required. 
+If the pod starts consuming more CPU or memory on the node, then the scheduler may not be able to place new pods, and even the node itself may crash.
 
+Resource requests specify the minimum amount of resources a container can use
+Resource limits specify the maximum amount of resources a container can use.
+```
 
+5. **Don’t Run as Root**
+```
+The UID (the Kubernetes systems-generated string that uniquely identifies objects) of the user running a container maps directly to the host. If the container runs as UID 0 (root), it will also appear as root on the node it’s running on.
+
+Kubernetes has built-in protections to prevent escalation of privileges with this mechanism, However, there’s always a chance that security issues could allow for escalating privileges. Avoid the situation by not running run your containers as root. Instead, modify the Dockerfile for your built containers to create and use a user with a known UID.
+```
+
+## Jenkins 
+1. **Cleaning up old Jenkins builds**
+```
+As a Jenkins administrator, removing old or unwanted builds keeps the Jenkins controller running efficiently. When you do not remove older builds, there are less resources for more current and relevant builds. This video reviews using the buildDiscarder directive in individual Pipeline jobs. The video also reviews the process to keep specific historical builds.
+```
 
 
