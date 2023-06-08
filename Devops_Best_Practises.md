@@ -127,7 +127,7 @@ Use credntials by which you can secure secret values
 ```
 3. **Install only required plugins**
 ```
-dont install plugins unnecessarily it might create issues with the jenkins.    
+dont install plugins unnecessarily it might createissues  with the security, storage or restart of jenkins.    
 ```
 4. **Executor count in node configuration**
 ```
